@@ -1,0 +1,1 @@
+py -3 ..\..\..\VHDL\psi_common\generators\psi_common_status_cc_X.py -postfix data2reg -ports CurrentCnt=32 TrigLeft=32 RdyWasLow=1

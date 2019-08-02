@@ -1,0 +1,1 @@
+py -3 ..\..\..\VHDL\psi_common\generators\psi_common_status_cc_X.py -postfix reg2data -ports UseRdy=1 Ena=1 CounterWrp=32 TrigSpacing=32 TrigOffs=32 TrigSporadic=1 TrigCount=32 DataSpacing=16

@@ -1,0 +1,4 @@
+#Packaging artifacts
+scripts/package_prj
+xgui/axis_data_gen_vivado_wrp_*.tcl
+
