@@ -11,7 +11,7 @@ set LibPath "../../../VHDL"
 namespace import psi::sim::*
 
 #Set library
-add_library psi_ms_daq
+add_library axis_data_gen
 
 #suppress messages
 compile_suppress 135,1236,1073,1246
