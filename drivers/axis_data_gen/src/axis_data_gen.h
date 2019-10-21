@@ -6,6 +6,10 @@
 
 #pragma once
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 //*******************************************************************************
 // Includes
 //*******************************************************************************
@@ -142,5 +146,9 @@ AxisDataGen_RetCode_t AxisDataGen_WasRdyLow(AxisDataGen_Inst_t* const inst_p,
 * @param	inst_p			Pointer to the information struct for this instance of the driver
 * @return	Return Code
 */
-AxisDataGen_RetCode_t AxisDataGen_ClrRdyLow(AxisDataGen_Inst_t* const inst_p);									
+AxisDataGen_RetCode_t AxisDataGen_ClrRdyLow(AxisDataGen_Inst_t* const inst_p);			
+
+#ifdef __cplusplus
+}
+#endif						
 
